@@ -15,10 +15,11 @@ input{
 
 .countryCard{
   border:2px solid black;
+  height:100px;
 }
 .countryCard img{
   position:relative;
-  top:20%;
+  top:5%;
   left:28%;
   width:70px;
   height:70px;
@@ -26,8 +27,9 @@ input{
 
 }
 
-.countryCard h5{
+.countryCard h2{
 
+  font-size:8px;
   text-align:center;
   
 }
