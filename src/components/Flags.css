@@ -1,18 +1,33 @@
 input{
-    position:relative;
-    left:40%;
-    width:230px;
+  position:relative;
+  left:40%;
+  width:230px;
 }
 
 .card-container{
-    display:grid;
-    grid-template-columns:repeat(7,1fr);
-    margin-top:20px;
-    margin-left:60px;
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  column-gap:5px;
+  row-gap:5px;
+  margin-top:20px;
+  margin-left:60px;
 }
 
+.countryCard{
+  border:2px solid black;
+}
 .countryCard img{
-    width:70px;
-    height:70px;
+  position:relative;
+  top:20%;
+  left:28%;
+  width:70px;
+  height:70px;
+  
 
+}
+
+.countryCard h5{
+
+  text-align:center;
+  
 }
