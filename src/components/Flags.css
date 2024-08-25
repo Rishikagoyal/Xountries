@@ -1,0 +1,18 @@
+input{
+    position:relative;
+    left:40%;
+    width:230px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    margin-top:20px;
+    margin-left:60px;
+}
+
+.countryCard img{
+    width:70px;
+    height:70px;
+
+}
