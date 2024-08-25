@@ -41,7 +41,7 @@ const Flags = () => {
                     filteredFlags.map((item, index) => (
                         <div className="countryCard" key={index}>
                             <img src={item.flags.png} alt={item.name.common} />
-                            <h5>{item.name.common}</h5>
+                            <h2>{item.name.common}</h2>
                         </div>
                     ))
                 ) : (
